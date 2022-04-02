@@ -1,0 +1,79 @@
+/* Class for colour changing */  
+.awesome {
+    font-family: 'Courier New', monospace;
+    font-style:normal;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #313131;
+    font-size: 40px;
+    font-weight: normal;
+    position: static;
+    -webkit-animation: colorchange 8s infinite alternate;
+  }
+  
+  @-webkit-keyframes colorchange {
+    0% {
+      color: blue;
+    }
+    10% {
+      color: #8e44ad;
+    }
+    20% {
+      color: #1abc9c;
+    }
+    30% {
+      color: #d35400;
+    }
+    40% {
+      color: blue;
+    }
+    50% {
+      color: #34495e;
+    }
+    60% {
+      color: blue;
+    }
+    70% {
+      color: #2980b9;
+    }
+    80% {
+      color: #f1c40f;
+    }
+    90% {
+      color: #2980b9;
+    }
+    100% {
+      color: pink;
+    }
+  }
+
+body {
+  font-family: 'Courier New', monospace;
+}
+/* This is custom CSS for the nav bar that uhhh bootstrap uses as it wont just let you easily change font color */
+.navbar-customclass {
+  background-color: #242933;
+}
+.navbar-customclass .navbar-brand,
+.navbar-customclass .navbar-text {
+  color: #ec4c56;
+}
+.navbar-customclass .navbar-nav .nav-link {
+  color: rgba(255,255,255,.6);
+}
+.navbar-customclass .nav-item.active .nav-link,
+.navbar-customclass .nav-item:hover .nav-link {
+  color: #596172;
+}
+/* for grey text lol */
+.AAA {
+  color: #596172; 
+}
+new Twitch.Embed("twitch-embed", {
+  width: 854,
+  height: 480,
+  channel: "monstercat",
+  // Only needed if this page is going to be embedded on other websites
+  parent: ["embed.example.com", "othersite.example.com"]
+});

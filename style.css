@@ -66,11 +66,12 @@ body {
 .navbar-customclass .nav-item:hover .nav-link {
   color: #596172;
 }
-/* for red text lol */
+/* for grey text lol */
 .AAA {
-  color: #ec4c56; 
+  color: #596172; 
 }
 /* for grey text lol */
 .BBB {
   color: #ec4c56; 
 }
+
